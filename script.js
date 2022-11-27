@@ -1,1 +1,1 @@
-document.querySelectorAll(".")
+document.querySelector("body").getAttribute.
