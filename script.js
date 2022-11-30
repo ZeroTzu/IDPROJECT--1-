@@ -64,7 +64,7 @@ var Schlieffen = new ShipClass("f","Schlieffen",420,34.1,282,10,
 `German Schlieffen is a fictitious battleship. In game, it is simply an incredible ship. One might think its just another battleship, with its slightly above average Main armaments and top speed, it cna already prove to be a danger to most ships.
 However, it shines the most when it gets close to the enemy. Its secondary armament comprising of 8x150mm and 16x105mm twin turrets that all have a maximum possible range of 12km will rain hell on any enemy ships nearby. Coupled with its
 ability to use torpedoes, any enemy that dares wander close to it will surely be punished severly for it.`)
-var Bismarck = new ShipClass("h","Bismark",380,28.52,250,8,
+var Bismarck = new ShipClass("h","Bismarck",380,28.52,250,8,
 `German battleship Schlieffen likely has the most impressive resume of any battleship that has existed. It represents the pinnacle of german ship engineering during world war 2. In May 24 1941, Battleship Bismark and Heavy Cruiser Prinz Eugen sinks
  the pride of the British fleet, battlecruiser HMS Hood, and moderately damaged battleship HMS Prince of Wales. However, days later in May 27 1941, it suffered a gruesome fate when it was hunted down sunk by allied british ships. Estimates say that
  it sustained at least over 500 shells and multiple torpedo hits over the course of 74 minutes before it was eventually sunk.<br>
