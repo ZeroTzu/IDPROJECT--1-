@@ -78,6 +78,7 @@ body{
   align-items: center;
   flex-direction: column;
   background-color: rgba(0,20,40);
+  color: white;
 }
 .TopBar{
   display:flex;
@@ -85,10 +86,10 @@ body{
   justify-content: center;
 }
 .TopBar *{
-  font-size: 3vw;
+  font-size: 2vw;
 }
 .content{
-  font-size:2vw ;
+  font-size:1.5vw ;
   display: flex;
   flex-flow:column wrap;
   background-color: rgb( 50 60 70);
@@ -128,6 +129,8 @@ body{
 }
 .Ships{
   width: 90%;
+  display:grid;
+
   padding-top: 50px;
   padding-left: 5%;
 
@@ -144,6 +147,16 @@ body{
 
 }
 .Ships div>img{
-  width: 90%;
-  height: 90%;
+  padding-top: 3%;
+  width: 100%;
+  height: 100%;
+
+}
+.Ships div div{
+  margin-top: 8%;
+  border: solid black;
+
+}
+html{
+  scroll-behavior: smooth;
 }
