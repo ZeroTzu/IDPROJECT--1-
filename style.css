@@ -1,36 +1,96 @@
 html, body {
+  margin: 8px;
   height: 100%;
+  width: 960px;
+}
+html{
+  scroll-behavior: smooth;
+
+  margin:auto;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:white;
+}
+body{
+  background-color: rgb(66, 79, 92);
+}
+.mystyle{
+  display: inline-block;
+  padding: 100px;
+  text-align: left;
+  border-radius: 10px;
+  background-color: yellow;
+  border: 2px;
+  border-style: solid;
+  border-color: brown;
+  width: 90%;
+}
+/*  BELOW IS THE TOP BAR TO BE COPIED ACROSS PAGES*/
+.TopBar{
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 20px;
+}
+.TopBarNav>*{
+  height: max-content;
+}
+.TopBarNav{
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  flex-direction:row ;
   width: 100%;
 }
-
+.active{
+  background-color: #4acb13;
+  color: black;
+  font-size: 2vw;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  padding:5px 20px;
+  border-radius: 5px;
+  border:2px solid black;
+}
+.not-active{
+  background-color: white;
+  color: black;
+  font-size: 2vw;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  padding:5px 20px;
+  border-radius: 5px;
+  border:2px solid black;
+}
+/*  END OF TOP BAR*/
+.elementHolder{
+  position: relative;
+  width: 100%;
+}
 .Mainbox{
-  display: flex;
   position:relative;
   height: auto;
-  width:auto;
-  align-items:center;
+  width: 100%;
   margin: 0 auto;
-  justify-content: center;
-  flex-direction: column;
+  width: 100%;
 }
 .Mainbox>img{
-  width: 90%;
-  height: 90%;
+  width: 100%;
 }
-.Mainbox>div>.title{
-  position:absolute;
-  top: 50%;
-  left:40%;
-  font-size: 4vw;
-  border: 0px solid black;
+.Mainbox>.title{
+  font-size: 3.5  vw;
+  position: relative;
+  bottom: 80%;
+  border: 1px solid black;
   color: white;
+  background-color: rgb(119, 62, 36);
+  padding: 5px 20px;
+  text-align: center;
 }
-.Mainbox>div>.detail{
-  position: absolute;
-  top: 90%;
-  left:10%;
-  
-}
+
 
 
 .flx-container{
@@ -45,93 +105,48 @@ html, body {
   align-items: center;
   
 }
-.flx-container>div{
-  border: 2px solid black;
+
+.flx-container>.nav-flex{
+  position:relative;
+  width: fit-content;
+  margin-top: 30px;
+  background-color: blue;
+}
+.flx-container>.nav-flex>img{
   position: relative;
   object-fit: contain;
-  flex-wrap:wrap;
-  flex-direction: row;
-  border-radius: 2px;
-  width: 80%;
-  height:auto;
-  padding:20px;
-  max-height: 10%;
-  background-color:rgb(61, 119, 226)
-}
-
-.flx-container>div>img{
-  object-fit: contain;
-  left:50%;
   width: auto;
   height: 50%;
   max-width: 50%;
   max-height: 100%;
 }
-.flx-container>div.nav-flex{
-  font-size: 10vw;
-  position: absolute;
-  left: 50%;
-  height: 50%;
-  border: 2px solid black;
+.flx-container>.nav-flex>h2{
+  font-size: 1.5vw;
+  width: 50%;
+  position: relative;
+  top:1%;
+  background: white;
+  text-align: center;
 }
-body{
-  align-items: center;
-  flex-direction: column;
-  background-color: rgba(0,20,40);
-  color: white;
+.flx-container>.nav-flex>*{
+  position: relative;
+  left:25%
 }
-.TopBar{
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.TopBar *{
-  font-size: 2vw;
-}
+
+
+
+
 .content{
   font-size:1.5vw ;
-  display: flex;
-  flex-flow:column wrap;
   background-color: rgb( 50 60 70);
+  position: relative;
 }
-.mystyle{
-  display: inline-block;
-  padding: 50px;
-  text-align: left;
-  border-radius: 10px;
-  background-color: yellow;
-  border: 2px;
-  border-style: solid;
-  border-color: brown;
-  width: 90%;
-}
-.active{
-  background-color: #4acb13;
-  color: black;
-  padding: 8px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-.not-active{
-  background-color: white;
-  color: black;
-  padding: 8px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
+
 .Ships{
   width: 90%;
   display:grid;
 
-  padding-top: 50px;
+  padding-top: 20px;
   padding-left: 5%;
 
 }
@@ -157,6 +172,20 @@ body{
   border: solid black;
 
 }
-html{
-  scroll-behavior: smooth;
+.ScrollButton{
+  position: absolute;
+  margin-top: 5%;
+  border: 2px solid #922724;
+  background-color: black;
+  text-align: center; 
+  width: 100%;
 }
+
+.Intro{
+  font-size: 3vw;
+}
+.Background{
+  position: relative;
+}
+
+  
