@@ -1,0 +1,108 @@
+html, body {
+    margin: 8px;
+    height: 100%;
+    width: 960px;
+}
+html{
+scroll-behavior: smooth;
+margin:auto;
+font-family:Georgia, 'Times New Roman', Times, serif;
+color:white;
+}
+  body{
+    background-color: rgb(66, 79, 92);
+    width: 960px;
+  }
+
+
+.TopBar{
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 20px;
+  }
+  .TopBarNav>*{
+    height: max-content;
+  }
+  .TopBarNav{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction:row ;
+    width: 100%;
+  }
+  .active{
+    background-color: #4acb13;
+    color: black;
+    font-size: 2vw;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding:5px 20px;
+    border-radius: 5px;
+    border:2px solid black;
+  }
+  .not-active{
+    background-color: white;
+    color: black;
+    font-size: 2vw;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding:5px 20px;
+    border-radius: 5px;
+    border:2px solid black;
+  }
+
+
+  
+.content{
+    font-size:1.5vw ;
+    background-color: rgb( 50 60 70);
+    position: relative;
+  }
+  
+  .Ships{
+    width: 90%;
+    display:grid;
+  
+    padding-top: 20px;
+    padding-left: 5%;
+  
+  }
+  .Ships div{
+    display: flex;
+    position:relative;
+    height: auto;
+    width:auto;
+    align-items:center;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+  
+  }
+  .Ships div>img{
+    padding-top: 3%;
+    width: 100%;
+    height: 100%;
+  
+  }
+  .Ships div div{
+    margin-top: 8%;
+    border: solid black;
+  
+  }
+  .ScrollButton{
+    position: absolute;
+    margin-top: 5%;
+    border: 2px solid #922724;
+    background-color: black;
+    text-align: center; 
+    width: 100%;
+  }
+  
+  .Intro{
+    font-size: 2vw;
+  }

@@ -1,0 +1,174 @@
+body{
+  background-color: rgb(66, 79, 92);
+  color: white;
+}
+html, body {
+  margin:8px;
+  height: 100%;
+  width: 960px;
+}
+html{
+  scroll-behavior: smooth;
+  margin:auto;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:white;
+}
+/*  BELOW IS THE TOP BAR TO BE COPIED ACROSS PAGES*/
+.TopBar{
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 20px;
+}
+.TopBarNav>*{
+  height: max-content;
+}
+.TopBarNav{
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  flex-direction:row ;
+  width: 100%;
+}
+.active{
+  background-color: #4acb13;
+  color: black;
+  font-size: 2vw;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  padding:5px 20px;
+  border-radius: 5px;
+  border:2px solid black;
+}
+.not-active{
+  background-color: white;
+  color: black;
+  font-size: 2vw;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  padding:5px 20px;
+  border-radius: 5px;
+  border:2px solid black;
+}
+/*  END OF TOP BAR*/
+.Logo{
+  position: relative;
+  display: flex;
+  border-radius: 25px;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  margin: 10px;
+}
+.content{
+  position: relative;
+  width: 50%;
+  height: max-content;
+}
+.Logo>img{
+  position: absolute;
+
+  width: 70%;
+  height: 70%;
+  left: 15%;
+  top:14%
+}
+.Logo{
+}
+.LogoHolder{
+  position: relative;
+  width: auto;
+  height: 5%;
+  display: flex;
+  opacity: 1;
+  max-height: max-content;
+}
+.formbox{
+  position: relative;
+  border:2px solid black;
+  padding:10px;
+  padding-left:30px ;
+  padding-right: 50px;
+  padding-bottom: 100px;
+  margin: 1px;
+  left: 50%;
+}
+.formbox>h2{
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.formbox>form{
+  position: relative;
+  height: fit-content;
+
+}
+.namebox{
+  margin: 3px;
+  height: 100px;
+  width:100%;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction:row ;
+  justify-content: flex-start;
+  align-items:  center;
+}
+.fnamebox{
+  position: relative;
+  margin-right:50px;
+  width: fit-content;
+}
+.lnamebox{
+  position: relative;
+  margin-right:50px;
+  width: fit-content;
+}
+.Emailnamebox{
+  position: relative;
+  margin-right:50px;
+  width: fit-content;
+}
+.Email{
+  length :30%
+
+}
+.submitbutton{
+  position: relative;
+  left: 50%;
+  bottom: 5%;
+}
+.SocialMediaBox>label{
+  position: relative;
+  left: 25%;
+}
+.SocialMediaBox>.LogoHolder{
+  position: relative;
+  left: 5%;
+}
+.SocialMediaBox{
+  position: relative;
+  left: 50%;
+}
+.Background{
+  position: relative;
+  left: 50%;
+  margin: 1%;
+}
+.Background>h2{
+  position: relative;
+}
+.Background>p{
+  position: relative;
+}
+.ScrollButton{
+  position: absolute;
+  margin-top: 5%;
+  border: 2px solid #922724;
+  background-color: black;
+  text-align: center; 
+  width: 100%;
+}
