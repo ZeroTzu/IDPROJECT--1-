@@ -2,13 +2,75 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Tutorial</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="styleabout.css" rel="stylesheet" type="text/css" />
   </head>
-<body>
-    <div class="TopBar">
-        <h2>About Us</h2>
-        <a href='https://worldofwarships.com/'>Get The Game</a>
-        <a href="./index.html" class="not-active">Home</a>
-        <a href="./about.html" class="active">About</a>
-        <!-- <a href="./index" class="'not-active">something</a> -->
+<body class="aboutbody">
+  <div class="TopBar">
+    <nav class="TopBarNav">
+      <a href="./index.html" class="not-active">Home</a>
+      <a href="./about.html" class="active">About</a>
+    </nav>
+    <!-- <a href="./index" class="'not-active">something</a> -->
+    <h2></h2>
+  </div>
+    <div class="content">
+      <div class="Background">
+        <h2>WHO ARE WE?</h2>
+        <p> 
+          We are a small independent group who are passionate about World of Warships based in South East Asia. Some of us love the game for its ships, others love the game for its exciting gameplays.
+          We often host competitions for World of Warships which are always open to the public. In JAN 2021, we hosted our annual WoW Festival in Kuala Lumpur.
+          
+          <br>
+          <br>
+          Next year from 32th Jan 2023 to 33th Jan 2023, we are slated to host another event in EXPO Singapore. Competitents will be randomly grouped into teams of 4 and will compete against other teams
+          to win the competition. A prize of $10000 SGD will be awarded to the winning team, while the teams placed 2nd and 3rd will win $3000 (SGD) and $1000 (SGD) respectively. If you are not the competitive type,
+          you can also join the festival as a visitor and there will be minigames where there are gifts to be won.<br>
+
+          More details will be announced as we move closer to the date. If you are interest in attending the festival, please sign up using the form below and we will note down your interest. Moreover, we will
+          send you updates on the event through the email you provide.
+
+          
+
+        </p>
+      </div>
+      <div class="formbox">
+        <h2>WOW FESTIVAL SIGNUP</h2>
+        <form>
+          <div class="namebox">
+            <div class="fnamebox"> 
+              <label for="fname">First Name: <br></label>
+              <input type="text" name="fname" class="textbox" required>
+            </div> 
+            <div class="lnamebox">
+              <label for="lname">Last Name:<br></label>
+              <input type="text" name="lname" class="textbox" required> 
+            </div>
+            <div class="Emailnamebox">
+              <label for="Email">Email Address: <br></label>
+              <input type="text" name="Email" required>
+            </div>
+          </div>
+
+
+          <h4>Are you joining us as a visitor or a contestant?</h3>
+          <div  class="rdbox">
+            <input type="radio" name="AttendeeType" value="Contestant">&nbsp<label for="AttendeeType">Contestant</label><br>
+            <input type="radio" name="AttendeeType" value="Visitor">&nbsp<label for="AttendeeType">Vistor</label><br>
+            <input type="checkbox" name="Access" value="AllowDataCollection"><label for="AllowDataCollection">You allow us to collect your data.</label><br>
+            <input type="checkbox" name="Access" value="AllowDetails"><label for="AllowDetails">You allow us to send you notifications on details of WOW FESTIVAL</label><br>
+          </div>
+          <input type="submit" class="submitbutton">
+        </form>
+      </div>
+      <div class="SocialMediaBox">
+        <label for="LogoHolder"> Here Are Our Social Media Platforms!</label>
+        <div class="LogoHolder"> 
+          <a href="https://www.instagram.com/officialrickastley/" class="Logo" target="_blank"><img src="./images/Logos/Instagram.jpeg"></a>
+          <a href="https://www.facebook.com/RickAstley/" class="Logo" target="_blank"><img src="./images/Logos/Facebook.jpeg"></a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="Logo" target="_blank"><img src="./images/Logos/Youtube.jpeg"></a>
+        </div>
+      </div>
+
+      <div class="Gameplay"></div> 
+    </div> 
 </body>

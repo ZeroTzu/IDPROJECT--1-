@@ -68,7 +68,7 @@ var Bismarck = new ShipClass("h","Bismarck",380,28.52,250,8,
 `German battleship Schlieffen likely has the most impressive resume of any battleship that has existed. It represents the pinnacle of german ship engineering during world war 2. In May 24 1941, Battleship Bismark and Heavy Cruiser Prinz Eugen sinks
  the pride of the British fleet, battlecruiser HMS Hood, and moderately damaged battleship HMS Prince of Wales. However, days later in May 27 1941, it suffered a gruesome fate when it was hunted down sunk by allied british ships. Estimates say that
  it sustained at least over 500 shells and multiple torpedo hits over the course of 74 minutes before it was eventually sunk.<br>
- In game, it boasts an impressive secondary armament and torpedoes similar to other german battleships, making it a formidable opponent in battle.`)
+ In game, it boasts an impressive secondary armament similar to other german battleships, making it a formidable opponent in most close-medium range battles.`)
  
  function AddShipsToHTML()
  {
@@ -78,25 +78,24 @@ var Bismarck = new ShipClass("h","Bismarck",380,28.52,250,8,
         let refContainer=document.body.querySelector(".content").querySelector(".Ships")
         let newDiv=document.createElement("div");
         let newImg=document.createElement("img");
-        newImg.src=`images/${ship.name}.jpeg`
+        let newA=document.createElement("a")
+        newImg.src=`images/Ships/${ship.name}.jpeg`
         newDiv.innerHTML=`${ship.outputStats()} ${ship.description}<br>`;
-        newDiv.className=`${ship.name}`;
+        newDiv.id=`${ship.name}`;
+        newA.href=`#${ship.name}`
+        newA.innerHTML=`${ship.name}`
         if (ship.FictOrHistoricalname=="h"){
             refContainer.querySelector(".historical").appendChild(newDiv);
-            refContainer.querySelector(".historical").querySelector(`.${ship.name}`).appendChild(newImg)
+            refContainer.querySelector(".historical").querySelector(`#${ship.name}`).appendChild(newImg)
         }
         else if(ship.FictOrHistoricalname=="f"){
             refContainer.querySelector(".fictitious").appendChild(newDiv);
-            refContainer.querySelector(".fictitious").querySelector(`.${ship.name}`).appendChild(newImg)
+            refContainer.querySelector(".fictitious").querySelector(`#${ship.name}`).appendChild(newImg)
         }
-        console.log(ship)
+        refContainer.querySelector(".Intro").querySelector(".quickscrollbox").appendChild(newA)
     })
   
  }
  
  AddShipsToHTML()
 
- const reff=document.body.querySelector(".content").querySelector(".Ships")
- const newdivv= document.createElement("div");
- newdivv.innerHTML=`hi Dude`;
- reff.appendChild(newdivv);
