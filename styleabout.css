@@ -55,6 +55,13 @@ html{
   border-radius: 5px;
   border:0px solid black;
 }
+.active:hover{
+  background-color: #922724;
+}
+.not-active:hover{
+  background-color: #922724;
+  margin-top: 3px;
+}
 /*  END OF TOP BAR*/
 .Logo{
   position: relative;

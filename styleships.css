@@ -56,6 +56,13 @@ color:white;
     border-radius: 5px;
     border:2px solid black;
   }
+  .active:hover{
+    background-color: #922724;
+  }
+  .not-active:hover{
+    background-color: #922724;
+    margin-top: 3px;
+  }
 
 
   

@@ -56,6 +56,7 @@ body{
   border-radius: 5px;
   border:5px solid black;
 }
+
 .not-active{
   background-color: white;
   color: black;
@@ -66,6 +67,13 @@ body{
   padding:5px 20px;
   border-radius: 5px;
   border:2px solid black;
+}
+.active:hover{
+  background-color: #922724;
+}
+.not-active:hover{
+  background-color: #922724;
+  margin-top: 3px;
 }
 /*  END OF TOP BAR*/
 .elementHolder{
