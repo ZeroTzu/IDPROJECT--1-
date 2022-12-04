@@ -11,7 +11,7 @@ html{
   color:white;
 }
 body{
-  background-color: rgb(66, 79, 92);
+  background-color: rgb(130 135 140);
 }
 .mystyle{
   display: inline-block;
@@ -43,6 +43,7 @@ body{
   flex-direction:row ;
   width: 100%;
 }
+.TopBarNav>
 .active{
   background-color: #4acb13;
   color: black;
@@ -110,7 +111,11 @@ body{
   position:relative;
   width: fit-content;
   margin-top: 30px;
-  background-color: blue;
+  background-color: rgb(50 60 70);
+}
+.nav-flex:hover{
+  background-color: rgb(50, 50, 248);
+  border: 5px solid white;
 }
 .flx-container>.nav-flex>img{
   position: relative;
