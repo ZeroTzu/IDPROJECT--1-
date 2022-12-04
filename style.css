@@ -11,7 +11,7 @@ html{
   color:white;
 }
 body{
-  background-color: rgb(130 135 140);
+  background-color: rgb(66, 79, 92);
 }
 .mystyle{
   display: inline-block;
@@ -45,15 +45,16 @@ body{
 }
 .TopBarNav>
 .active{
-  background-color: #4acb13;
+  background-color: white;
   color: black;
   font-size: 2vw;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
   padding:5px 20px;
+  margin-top: 5px;
   border-radius: 5px;
-  border:2px solid black;
+  border:5px solid black;
 }
 .not-active{
   background-color: white;
@@ -86,8 +87,8 @@ body{
   position: relative;
   bottom: 80%;
   border: 1px solid black;
-  color: white;
-  background-color: rgb(119, 62, 36);
+  color: black;
+  background-color: white;
   padding: 5px 20px;
   text-align: center;
 }

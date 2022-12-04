@@ -43,15 +43,16 @@ body{
     width: 100%;
   }
   .active{
-    background-color: #4acb13;
+    background-color: white;
     color: black;
     font-size: 2vw;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
     padding:5px 20px;
+    margin-top: 5px;
     border-radius: 5px;
-    border:2px solid black;
+    border:5px solid black;
   }
   .not-active{
     background-color: white;

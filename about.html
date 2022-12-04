@@ -35,32 +35,34 @@
       </div>
       <div class="formbox">
         <h2>WOW FESTIVAL SIGNUP</h2>
-        <form>
+        <div id="error"></div>
+        <form id="form">
           <div class="namebox">
             <div class="fnamebox"> 
               <label for="fname">First Name: <br></label>
-              <input type="text" name="fname" class="textbox" required>
+              <input id="fname" type="text" name="fname" class="textbox" required>
             </div> 
             <div class="lnamebox">
               <label for="lname">Last Name:<br></label>
-              <input type="text" name="lname" class="textbox" required> 
+              <input id="lname" type="text" name="lname" class="textbox" required> 
             </div>
             <div class="Emailnamebox">
               <label for="Email">Email Address: <br></label>
-              <input type="text" name="Email" required>
+              <input id="email" type="text" name="Email" required>
             </div>
           </div>
 
 
           <h4>Are you joining us as a visitor or a contestant?</h3>
           <div  class="rdbox">
-            <input type="radio" name="AttendeeType" value="Contestant">&nbsp<label for="AttendeeType">Contestant</label><br>
+            <input type="radio" name="AttendeeType" id="fname" value="Contestant">&nbsp<label for="AttendeeType">Contestant</label><br>
             <input type="radio" name="AttendeeType" value="Visitor">&nbsp<label for="AttendeeType">Vistor</label><br>
             <input type="checkbox" name="Access" value="AllowDataCollection"><label for="AllowDataCollection">You allow us to collect your data.</label><br>
-            <input type="checkbox" name="Access" value="AllowDetails"><label for="AllowDetails">You allow us to send you notifications on details of WOW FESTIVAL</label><br>
+            <input type="checkbox" name="Access" value="AllowDetails" required><label for="AllowDetails">You allow us to send you notifications on details of WOW FESTIVAL</label><br>
           </div>
           <input type="submit" class="submitbutton">
         </form>
+        
       </div>
       <div class="SocialMediaBox">
         <label for="LogoHolder"> Here Are Our Social Media Platforms!</label>
@@ -73,4 +75,5 @@
 
       <div class="Gameplay"></div> 
     </div> 
+    <script src="scriptabout.js"></script>
 </body>

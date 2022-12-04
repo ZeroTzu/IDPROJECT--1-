@@ -96,6 +96,5 @@ var Bismarck = new ShipClass("h","Bismarck",380,28.52,250,8,
     })
   
  }
- 
  AddShipsToHTML()
 
